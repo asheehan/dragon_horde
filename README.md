@@ -1,4 +1,4 @@
-# Elysia with Bun runtime
+# Dragon Horde (Elysia with Bun runtime)
 
 This was a quick standup of an app to show token amounts across many different wallets to make managing a bundled token launch easier.
 
