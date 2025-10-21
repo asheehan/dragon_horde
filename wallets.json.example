@@ -1,0 +1,10 @@
+{
+  "_README": "Copy this file to wallets.json and replace with your wallet addresses to monitor",
+  "legendWallets": [
+    "CBBPAgBcfP4V8dXJyAeSm8exDDo896dk8yXL94RS2r2N",
+    "EmqnKYHM9S82XJq53VSQa5WMXJer8AZkw2L5ofkvmb5Y"
+  ],
+  "v2Wallets": [
+    "CBBPAgBcfP4V8dXJyAeSm8exDDo896dk8yXL94RS2r2N"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "walletz",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run src/index.tsx",
+    "scanner": "bun run src/scripts/scanner.ts",
+    "migrate": "bunx prisma migrate deploy",
+    "reset": "bunx prisma migrate reset",
+    "dev": "bun run --watch src/index.tsx"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^1.1.1",
+    "@prisma/client": "^5.22.0",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.4",
+    "elysia": "latest",
+    "pm2": "^5.4.3",
+    "prisma": "^5.22.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.9",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
